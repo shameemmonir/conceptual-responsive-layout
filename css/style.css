@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navber style start here  */
+.navbar-wraper{
+    background-color: rgb(71, 85, 105);
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+.nav-menu-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.nav-hamburger-menu{
+    display: none;
+}
+
+/* navbar style end here  */
+
+/* main content style start here  */
+.main-content{
+    border: 1px solid tomato;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* main content style end here  */
+
+/* banner content style start here  */
+.banner-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.banner-childs{
+    width: 47%;
+    position: relative;
+}
+.banner-childs img{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner-btn{
+    border: 2px solid gray;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.fifty-off{
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    width: max-content;
+    padding: 20px 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    top: 40%;
+    left: 28%;
+    position: absolute;
+}
+/* banner content style end here  */
+
+/* popular section style start here  */
+
+.popular-main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    min-height: 200px;
+    padding: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+}
+.card div img{
+    border: 1px solid rebeccapurple;
+    height: 300px;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* popular section style end here  */
